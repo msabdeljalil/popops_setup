@@ -16,4 +16,4 @@ if [[ ! -d ~/.oh-my-zsh ]]; then
   curl -L http://install.ohmyz.sh | sudo -E bash
 fi
 
-rsync --archive ~/popops_setup/dotfiles/. ~
+rsync --archive ~/popops_setup/Dotfiles/. ~
