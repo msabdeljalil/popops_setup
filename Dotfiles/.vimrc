@@ -30,7 +30,7 @@ set encoding=utf-8
 
 syntax enable
 set background=dark
-colorscheme solarized
+" colorscheme solarized
 set number
 
 " Enable filetype plugins
