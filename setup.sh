@@ -17,4 +17,3 @@ if [[ ! -d ~/.oh-my-zsh ]]; then
 fi
 
 rsync --archive ~/popops_setup/dotfiles/. ~
-
