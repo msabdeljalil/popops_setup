@@ -2,7 +2,7 @@
 
 set -e
 
-sudo apt-get install -y vim curl zsh rsync tmux
+sudo apt-get install -y vim curl zsh rsync tmux chruby
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle
 [[ -f ~/.vim/autoload/pathogen.vim ]] || curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
