@@ -49,19 +49,6 @@ export EDITOR='vim'
  else
  fi
 
-# Compilation flags
- export ARCHFLAGS="-arch x86_64"
-
-# ssh
-export SSH_KEY_PATH="~/.ssh/dsa_id"
-
-export GITHUB_HOST="git.enova.com"
-
-chruby ruby
-
-# VPN fixes
-export FIX_VPN_POW=yes
-export FIX_VPN_MINIRAISER=yes
 
 alias cat='pygmentize -g'
 alias gpr='git pull-request'
